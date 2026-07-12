@@ -1,0 +1,101 @@
+erDiagram
+
+    USER {
+        uuid id PK
+        string name
+        string email
+        string passwordHash
+        datetime createdAt
+        datetime updatedAt
+    }
+
+    ANALYSIS_REPORT {
+        uuid id PK
+        uuid userId FK
+        string companyName
+        string ticker
+        string recommendation
+        int confidence
+        datetime generatedAt
+    }
+
+    COMPANY {
+        uuid id PK
+        string name
+        string ticker
+        string sector
+        string industry
+        string headquarters
+        string website
+    }
+
+    FINANCIAL_DATA {
+        uuid id PK
+        uuid companyId FK
+        float revenue
+        float netIncome
+        float eps
+        float peRatio
+        float roe
+        float roa
+        float marketCap
+        float debt
+        float cashFlow
+    }
+
+    NEWS {
+        uuid id PK
+        uuid companyId FK
+        string title
+        string source
+        date publishedDate
+        string sentiment
+        string url
+    }
+
+    RISK_ANALYSIS {
+        uuid id PK
+        uuid companyId FK
+        string businessRisk
+        string financialRisk
+        string operationalRisk
+        string regulatoryRisk
+    }
+
+    COMPETITOR {
+        uuid id PK
+        uuid companyId FK
+        string competitorName
+        string industry
+        string marketPosition
+    }
+
+    CHAT_SESSION {
+        uuid id PK
+        uuid reportId FK
+        datetime createdAt
+    }
+
+    CHAT_MESSAGE {
+        uuid id PK
+        uuid sessionId FK
+        string role
+        string message
+        datetime timestamp
+    }
+
+    USER ||--o{ ANALYSIS_REPORT : generates
+
+    COMPANY ||--|| FINANCIAL_DATA : has
+
+    COMPANY ||--o{ NEWS : contains
+
+    COMPANY ||--|| RISK_ANALYSIS : has
+
+    COMPANY ||--o{ COMPETITOR : competes_with
+
+    ANALYSIS_REPORT }o--|| COMPANY : analyzes
+
+    ANALYSIS_REPORT ||--o{ CHAT_SESSION : creates
+
+    CHAT_SESSION ||--o{ CHAT_MESSAGE : contains

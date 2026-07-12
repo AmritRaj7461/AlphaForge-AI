@@ -1,0 +1,21 @@
+# Environment Variables
+
+Backend
+
+PORT
+
+GEMINI_API_KEY
+
+NEWS_API_KEY
+
+FINANCE_API_KEY
+
+COMPANY_API_KEY
+
+NODE_ENV
+
+---
+
+Frontend
+
+VITE_API_URL

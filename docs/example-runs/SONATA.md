@@ -1,0 +1,36 @@
+# AlphaForge AI Research Report: Sonata Software (SONATACO)
+
+## Executive Summary
+
+| Metric | Detail |
+| :--- | :--- |
+| **Company Name** | Sonata Software Ltd |
+| **Ticker** | SONATACO (NSE) |
+| **Recommendation** | **BUY** |
+| **Confidence Score** | 90% |
+| **Expected Return** | +14% (12-Month Horizon) |
+
+---
+
+## Key Strengths
+- **Modernization Partnerships**: Focused partnerships with Microsoft (Azure, Dynamics 365) driving cloud migrations.
+- **Niche Focus**: Strong digital engineering footprint in retail, travel, and distribution industries.
+
+## Key Risks
+- **Key Client Concentration**: Reliance on a few major retail clients for core services revenue.
+- **Offshore Wages**: Wage pressures in Indian delivery centers impact pricing competitiveness.
+
+---
+
+## Detailed Financial Pillars
+
+- **Market Cap**: ₹102B (+1.15%)
+- **P/E Ratio**: 24.80 (+0.95%)
+- **Revenue Growth**: 11.20% (+1.40%)
+- **ROE**: 32.40% (+2.80%)
+- **Net Margin**: 14.60% (+0.60%)
+
+---
+
+## Summary Thesis
+Sonata Software presents a strong mid-cap opportunity. Its specialized service focus and strong alignment with Microsoft's cloud ecosystem offer high margin potentials.

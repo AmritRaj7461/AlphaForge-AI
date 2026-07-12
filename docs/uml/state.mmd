@@ -1,0 +1,25 @@
+stateDiagram-v2
+
+[*] --> Idle
+
+Idle --> Researching
+
+Researching --> Aggregating
+
+Aggregating --> Prompting
+
+Prompting --> Reasoning
+
+Reasoning --> Validating
+
+Validating --> Formatting
+
+Formatting --> Completed
+
+Completed --> Idle
+
+Validating --> Failed
+
+Failed --> Retry
+
+Retry --> Researching

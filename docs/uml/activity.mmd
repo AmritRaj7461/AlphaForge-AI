@@ -1,0 +1,51 @@
+flowchart TD
+
+Start
+
+↓
+
+Input["Enter Company"]
+
+↓
+
+Validate{"Valid Company?"}
+
+Validate -- No --> Error["Show Error"]
+
+Validate -- Yes --> Research
+
+Research["Execute Research Tools"]
+
+↓
+
+Aggregate["Aggregate Data"]
+
+↓
+
+Prompt["Build Prompt"]
+
+↓
+
+LLM["Gemini"]
+
+↓
+
+ValidateOutput{"Valid Response?"}
+
+ValidateOutput -- No --> Retry
+
+Retry["Fallback Manager"]
+
+Retry --> Prompt
+
+ValidateOutput -- Yes --> Confidence
+
+Confidence["Calculate Confidence"]
+
+↓
+
+Dashboard["Generate Dashboard"]
+
+↓
+
+End

@@ -1,0 +1,61 @@
+flowchart TB
+
+    User["👤 User"]
+
+    Frontend["React Frontend"]
+
+    Backend["Express Backend"]
+
+    ARGUS["ARGUS AI Orchestrator"]
+
+    Company["Company Tool"]
+    Finance["Finance Tool"]
+    News["News Tool"]
+    Risk["Risk Tool"]
+    Competitor["Competitor Tool"]
+
+    Aggregator["Data Aggregator"]
+
+    Prompt["Prompt Builder"]
+
+    Gemini["Gemini LLM"]
+
+    Validator["Response Validator"]
+
+    Confidence["Confidence Engine"]
+
+    Formatter["Response Formatter"]
+
+    Dashboard["Dashboard UI"]
+
+    User --> Frontend
+
+    Frontend --> Backend
+
+    Backend --> ARGUS
+
+    ARGUS --> Company
+    ARGUS --> Finance
+    ARGUS --> News
+    ARGUS --> Risk
+    ARGUS --> Competitor
+
+    Company --> Aggregator
+    Finance --> Aggregator
+    News --> Aggregator
+    Risk --> Aggregator
+    Competitor --> Aggregator
+
+    Aggregator --> Prompt
+
+    Prompt --> Gemini
+
+    Gemini --> Validator
+
+    Validator --> Confidence
+
+    Confidence --> Formatter
+
+    Formatter --> Dashboard
+
+    Dashboard --> User

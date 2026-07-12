@@ -1,0 +1,36 @@
+# AlphaForge AI Research Report: Paytm (PAYTM)
+
+## Executive Summary
+
+| Metric | Detail |
+| :--- | :--- |
+| **Company Name** | One97 Communications Ltd (Paytm) |
+| **Ticker** | PAYTM (NSE) |
+| **Recommendation** | **PASS** |
+| **Confidence Score** | 80% |
+| **Expected Return** | Highly Volatile |
+
+---
+
+## Key Strengths
+- **Brand Recall**: High consumer brand recognition in merchant payments and digital wallets.
+- **Unified Payment Interface**: Strong processing volumes in UPI transactions.
+
+## Key Risks
+- **Regulatory Penalties**: Directives from Reserve Bank of India (RBI) placing restrictions on banking unit nodes.
+- **Profitability Headwinds**: High user incentives and operational expenditures lead to persistent net losses.
+
+---
+
+## Detailed Financial Pillars
+
+- **Market Cap**: ₹256B (-4.50%)
+- **P/E Ratio**: N/A (Negative Earnings)
+- **Revenue Growth**: -14.20% (-3.80%)
+- **ROE**: -11.80% (-2.50%)
+- **Net Margin**: -22.40% (-4.10%)
+
+---
+
+## Summary Thesis
+Due to ongoing regulatory compliance interventions and recurring operational losses, the company receives a PASS rating. Capital protection is prioritized until compliance clearances are finalized.
