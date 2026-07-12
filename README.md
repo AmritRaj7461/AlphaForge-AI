@@ -79,7 +79,7 @@ ARGUS Orchestrator
 
 ---
 
-## Installation & Setup
+## How to run it
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
@@ -149,22 +149,22 @@ AlphaForge-AI/
 
 ---
 
-## Key Engineering Decisions
+## Key decisions & trade-offs
+
+### Key Decisions
 - **React/Vite**: Fast, reactive state mounts and minimal hot-reload delays.
 - **Express**: Sturdy REST routing middleware and simple session logging controls.
-- **Gemini Primary with Fallback**: Low latency primary response times, with OpenAI and Groq fallovers for reliability.
+- **Gemini Primary with Fallbacks**: Low latency primary response times, with OpenAI and Groq fallbacks for reliability.
 - **Zod Schema Validations**: Type-safety checks to prevent model output syntax corruptions.
 - **BUY / HOLD / PASS**: Shifted from Buy/Sell indicators to focus on research recommendation rather than trade execution.
 
----
-
-## Trade-offs
+### Trade-offs (What we chose to leave out)
 - **Authentication**: Excluded to focus on report processing speed and session safety.
 - **Portfolio Tracking**: Excluded to center structural designs around research discovery rather than trading ledgers.
 
 ---
 
-## Future Roadmap
+## What we would improve with more time
 - **Portfolio Watchlists**: Local storage-based ticker tracking grids.
 - **PDF/CSV Downloads**: Single-click export functions for financial statements.
 - **RAG over Annual Filings**: Direct vector search on 10-K and 10-Q reports.
@@ -239,4 +239,5 @@ The `docs/` directory contains structured technical documentation explaining the
 - [docs/Architecture.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/Architecture.md): System design, boundaries, and asymmetric grids.
 - [docs/decisions/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/decisions/): Architectural decision records (ADRs) explaining technology choices.
 - [docs/llm-transcripts/development-log.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/development-log.md): AI-assisted prompt iterations and engineering development log.
+- [docs/llm-transcripts/transcript.jsonl](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/transcript.jsonl): Complete raw conversation transcript logs of the AI-assisted pair programming sessions.
 
