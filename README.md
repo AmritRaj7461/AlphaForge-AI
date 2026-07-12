@@ -168,3 +168,113 @@ AlphaForge-AI/
 - **Portfolio Watchlists**: Local storage-based ticker tracking grids.
 - **PDF/CSV Downloads**: Single-click export functions for financial statements.
 - **RAG over Annual Filings**: Direct vector search on 10-K and 10-Q reports.
+
+---
+
+# Example Runs
+
+AlphaForge AI has been comprehensively evaluated across multiple companies from both the US and Indian equity markets.
+
+| Company | Recommendation | Confidence | Report Link |
+| :--- | :--- | :--- | :--- |
+| **Apple (AAPL)** | BUY | 97% | [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md) |
+| **Microsoft (MSFT)** | HOLD | 91% | [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md) |
+| **NVIDIA (NVDA)** | BUY | 93% | [docs/example-runs/NVDA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/NVDA.md) |
+| **Tata Consultancy Services (TCS)** | BUY | 89% | [docs/example-runs/TCS.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/TCS.md) |
+| **Paytm (PAYTM)** | PASS | 74% | [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md) |
+| **Sonata Software (SONATACO)** | HOLD | 82% | [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md) |
+
+Every generated analysis report includes:
+- **Executive Summary**: Core metrics, exchange codes, and expectations.
+- **Financial Analysis**: Margin ratios and balance sheet indicators.
+- **Risk Assessment**: Matrix scoring for corporate vulnerabilities.
+- **SWOT Matrix**: Two highly concentrated points per quadrant.
+- **Competitor Analysis**: Relative positioning compared to peer group benchmarks.
+
+### Apple Inc. (AAPL)
+*   **Recommendation**: BUY
+*   **Confidence**: 97%
+*   **Preview**:
+    ![Apple Mockup Preview](docs/screenshots/aapl-example.png)
+*   **Full Report**: [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md)
+
+### Microsoft Corp. (MSFT)
+*   **Recommendation**: HOLD
+*   **Confidence**: 91%
+*   **Preview**:
+    ![Microsoft Mockup Preview](docs/screenshots/msft-example.png)
+*   **Full Report**: [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md)
+
+### NVIDIA Corp. (NVDA)
+*   **Recommendation**: BUY
+*   **Confidence**: 93%
+*   **Preview**:
+    ![NVIDIA Mockup Preview](docs/screenshots/nvda-example.png)
+*   **Full Report**: [docs/example-runs/NVDA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/NVDA.md)
+
+### Tata Consultancy Services (TCS)
+*   **Recommendation**: BUY
+*   **Confidence**: 89%
+*   **Preview**:
+    ![TCS Mockup Preview](docs/screenshots/tcs-example.png)
+*   **Full Report**: [docs/example-runs/TCS.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/TCS.md)
+
+### Paytm (PAYTM)
+*   **Recommendation**: PASS
+*   **Confidence**: 74%
+*   **Preview**:
+    ![Paytm Mockup Preview](docs/screenshots/paytm-example.png)
+*   **Full Report**: [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md)
+
+### Sonata Software (SONATACO)
+*   **Recommendation**: HOLD
+*   **Confidence**: 82%
+*   **Preview**:
+    ![Sonata Mockup Preview](docs/screenshots/sonata-example.png)
+*   **Full Report**: [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md)
+
+---
+
+# Screenshots
+
+The following screenshots illustrate the interface, layout architecture, and reasoning components in AlphaForge AI:
+
+## Landing Page
+![Landing Page](docs/screenshots/landing-page.png)
+*Displays the dark-mode layout of the terminal workspace, including the dynamic company preview card carousel.*
+
+## Dashboard Overview
+![Dashboard Overview](docs/screenshots/dashboard-overview.png)
+*Shows the asymmetric cockpit dashboard displaying the company profile summary, recommendation panel, and financial pillars.*
+
+## Investment Recommendation Centerpiece
+![Investment Centerpiece](docs/screenshots/investment-recommendation.png)
+*Provides details on rating categorization, expected return percentages, evidence metrics checklist, and the circular confidence score dial.*
+
+## Risk Analysis Card
+![Risk Card](docs/screenshots/risk-analysis.png)
+*Visualizes business, financial, operational, and macroeconomic risk categories with rating levels.*
+
+## SWOT Matrix
+![SWOT Matrix](docs/screenshots/swot-analysis.png)
+*Aligns strengths, weaknesses, opportunities, and threats inside a fixed-height baseline-constrained grid.*
+
+## Competitor Peer Group Analysis
+![Competitor Table](docs/screenshots/competitor-analysis.png)
+*Details relative margins, P/E multiples, revenue growth rates, and market share across primary sector peers.*
+
+## Ask ARGUS Assistant
+![ARGUS Chat Window](docs/screenshots/argus-chat.png)
+*Shows the interactive follow-up Q&A window with data source citations.*
+
+---
+
+# Documentation
+
+The `docs/` directory contains structured technical documentation explaining the system design:
+- [docs/example-runs/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/): Pre-generated stock research reports containing investment checklists.
+- [docs/screenshots/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/screenshots/): Layout screenshots displaying the interactive UI modules.
+- [docs/Architecture.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/Architecture.md): System design, boundaries, and asymmetric grids.
+- [docs/decisions/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/decisions/): Architectural decision records (ADRs) explaining technology choices.
+- [docs/llm-transcripts/development-log.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/development-log.md): AI-assisted prompt iterations and engineering development log.
+
