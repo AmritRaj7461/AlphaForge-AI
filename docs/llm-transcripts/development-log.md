@@ -2,6 +2,12 @@
 
 This document compiles the chronological engineering log, iteration cycles, and system design decisions made during the AI-assisted development of AlphaForge AI.
 
+> [!NOTE]
+> The associated conversation logs and prompt records represent consolidated summaries of the original engineering sessions. Different LLMs were utilized for specialized tasks throughout development:
+> - **ChatGPT** was leveraged for Architectural and System Design Conversations.
+> - **Google Gemini** was used for financial API Integration and backend ARGUS orchestrator logic.
+> - **Claude** was utilized for UI/UX layouts, Tailwind/CSS styling, and React visual components.
+
 ---
 
 ## 1. Project Objective
