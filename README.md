@@ -3,6 +3,13 @@
 
 AlphaForge AI is an institutional-grade investment research platform designed to expose the reasoning behind automated financial recommendations.
 
+> [!NOTE]
+> **AI Pair Programming Collaboration**:
+> This platform was engineered using a multi-model AI delegation strategy. The consolidated prompts and responses are documented in the [transcript logs](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/transcript.jsonl).
+> - **ChatGPT** was utilized for high-level Architectural & System Design conversations.
+> - **Google Gemini** was used for financial API Integration, data resolver mapping, and orchestrator pipelines.
+> - **Claude** was employed for UI/UX Layout, CSS styles, Recharts charts, and React component polish.
+
 ---
 
 ## Overview
