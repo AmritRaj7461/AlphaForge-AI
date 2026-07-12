@@ -177,12 +177,12 @@ AlphaForge AI has been comprehensively evaluated across multiple companies from 
 
 | Company | Recommendation | Confidence | Report Link |
 | :--- | :--- | :--- | :--- |
-| **Apple (AAPL)** | BUY | 97% | [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md) |
-| **Microsoft (MSFT)** | HOLD | 91% | [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md) |
+| **Apple (AAPL)** | BUY | 93% | [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md) |
+| **Microsoft (MSFT)** | HOLD | 93% | [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md) |
 | **NVIDIA (NVDA)** | BUY | 93% | [docs/example-runs/NVDA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/NVDA.md) |
 | **Tata Consultancy Services (TCS)** | BUY | 89% | [docs/example-runs/TCS.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/TCS.md) |
-| **Paytm (PAYTM)** | PASS | 74% | [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md) |
-| **Sonata Software (SONATACO)** | HOLD | 82% | [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md) |
+| **Paytm (PAYTM)** | PASS | 80% | [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md) |
+| **Sonata Software (SONATACO)** | HOLD | 65% | [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md) |
 
 Every generated analysis report includes:
 - **Executive Summary**: Core metrics, exchange codes, and expectations.
@@ -190,48 +190,6 @@ Every generated analysis report includes:
 - **Risk Assessment**: Matrix scoring for corporate vulnerabilities.
 - **SWOT Matrix**: Two highly concentrated points per quadrant.
 - **Competitor Analysis**: Relative positioning compared to peer group benchmarks.
-
-### Apple Inc. (AAPL)
-*   **Recommendation**: BUY
-*   **Confidence**: 97%
-*   **Preview**:
-    ![Apple Mockup Preview](docs/screenshots/apple-investment-report.png)
-*   **Full Report**: [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md)
-
-### Microsoft Corp. (MSFT)
-*   **Recommendation**: HOLD
-*   **Confidence**: 91%
-*   **Preview**:
-    ![Microsoft Mockup Preview](docs/screenshots/apple-investment-report.png)
-*   **Full Report**: [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md)
-
-### NVIDIA Corp. (NVDA)
-*   **Recommendation**: BUY
-*   **Confidence**: 93%
-*   **Preview**:
-    ![NVIDIA Mockup Preview](docs/screenshots/nvidia-investment-report.png)
-*   **Full Report**: [docs/example-runs/NVDA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/NVDA.md)
-
-### Tata Consultancy Services (TCS)
-*   **Recommendation**: BUY
-*   **Confidence**: 89%
-*   **Preview**:
-    ![TCS Mockup Preview](docs/screenshots/tcs-investment-report.png)
-*   **Full Report**: [docs/example-runs/TCS.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/TCS.md)
-
-### Paytm (PAYTM)
-*   **Recommendation**: PASS
-*   **Confidence**: 74%
-*   **Preview**:
-    ![Paytm Mockup Preview](docs/screenshots/paytm-investment-report.png)
-*   **Full Report**: [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md)
-
-### Sonata Software (SONATACO)
-*   **Recommendation**: HOLD
-*   **Confidence**: 82%
-*   **Preview**:
-    ![Sonata Mockup Preview](docs/screenshots/sonata-investment-report.png)
-*   **Full Report**: [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md)
 
 ---
 
