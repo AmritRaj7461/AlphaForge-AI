@@ -1,8 +1,6 @@
 /**
- * DashboardPage — Premium asymmetric cockpit layout.
- * Redesigned to use CSS grid rows of side-by-side paired components with equal height alignments,
- * avoiding large vertical gaps and aligning the Q&A window near the end of the report.
- * Fully theme-aware via CSS variables. No hardcoded colors.
+ * DashboardPage component for AlphaForge AI.
+ * Renders the primary asymmetric workspace with financial indicators and ARGUS thesis.
  */
 import React, { useState, useEffect } from 'react';
 import { Navigate } from 'react-router-dom';

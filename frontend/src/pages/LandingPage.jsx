@@ -1,8 +1,6 @@
 /**
- * LandingPage — Nebula Console / AlphaForge AI V3.0
- * 100% visual match of the provided reference mockup.
- * Configured with active CSS variables for light and dark theme support.
- * Refined subtext scales, dynamic navbar callbacks, and cleaner search modal tips.
+ * LandingPage component for AlphaForge AI.
+ * Displays the product overview, technologies, and interactive mockup.
  */
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';

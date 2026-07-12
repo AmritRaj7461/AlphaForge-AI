@@ -1,8 +1,5 @@
 /**
- * RecommendationCard — BUY / HOLD / PASS rating panel.
- * Visual centerpiece of the dashboard.
- * Refactored to support dynamic explainable evidence signals, confidence breakdowns,
- * expected returns, target categories, valuation tags, and a large circular score dial.
+ * RecommendationCard component showing rating outputs and evidence criteria.
  */
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';

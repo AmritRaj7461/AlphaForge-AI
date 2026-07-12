@@ -1,11 +1,6 @@
 /**
- * LoadingScreen Component — Redesigned premium progress screen
- * Displays step-by-step progress tracking for all 9 ARGUS pipeline stages.
- * Fixed scrollbar bleed by wrapping the container in an overflow-hidden card.
- * Uses smooth 800ms paced intervals for a high-end sequential checking flow.
- * Prevent duplicate ticks from parent re-renders by enforcing unique state updates and mounting once.
+ * LoadingScreen component representing the 9-stage analysis pipeline.
  */
-
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 

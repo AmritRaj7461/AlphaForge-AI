@@ -1,7 +1,5 @@
 /**
- * Navbar — fixed top bar with logo, nav links, theme toggle, ARGUS status.
- * Dynamically replaces "Features" with "Dashboard" on `/dashboard`.
- * Houses the E2E Walkthrough Video Modal so it works on both pages.
+ * Navbar component. Fixed top header bar.
  */
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';

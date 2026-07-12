@@ -1,13 +1,6 @@
 /**
- * AlphaForge AI — Express Backend Server
- * 
- * Entry point for the backend application.
- * Assembles middleware, routes, and error handling.
- * 
- * Per Engineering Constitution:
- * - Article 10: All APIs accept JSON, return JSON
- * - Article 13: Security middleware (Helmet, CORS, Rate Limiting)
- * - Article 11: Global error handler
+ * AlphaForge AI Express Server.
+ * Gateway orchestrating analysis routes, rate-limits, and CORS.
  */
 
 require('dotenv').config();
