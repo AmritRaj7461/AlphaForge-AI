@@ -99,10 +99,16 @@ cd AlphaForge-AI
 ```
 
 ### 2. Configure Environment Variables
-Copy `.env.example` at the root directory to `backend/.env` and `frontend/.env` respectively:
+
+Copy the `.env.example` template inside the `backend/` and `frontend/` directories:
 ```bash
-cp .env.example backend/.env
-cp frontend/.env.example frontend/.env
+# In the backend directory:
+cd backend
+cp .env.example .env
+
+# In the frontend directory:
+cd ../frontend
+cp .env.example .env
 ```
 Fill in the API keys in your `backend/.env` file.
 
