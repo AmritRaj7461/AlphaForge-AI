@@ -195,42 +195,42 @@ Every generated analysis report includes:
 *   **Recommendation**: BUY
 *   **Confidence**: 97%
 *   **Preview**:
-    ![Apple Mockup Preview](docs/screenshots/aapl-example.png)
+    ![Apple Mockup Preview](docs/screenshots/apple-investment-report.png)
 *   **Full Report**: [docs/example-runs/AAPL.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/AAPL.md)
 
 ### Microsoft Corp. (MSFT)
 *   **Recommendation**: HOLD
 *   **Confidence**: 91%
 *   **Preview**:
-    ![Microsoft Mockup Preview](docs/screenshots/msft-example.png)
+    ![Microsoft Mockup Preview](docs/screenshots/apple-investment-report.png)
 *   **Full Report**: [docs/example-runs/MSFT.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/MSFT.md)
 
 ### NVIDIA Corp. (NVDA)
 *   **Recommendation**: BUY
 *   **Confidence**: 93%
 *   **Preview**:
-    ![NVIDIA Mockup Preview](docs/screenshots/nvda-example.png)
+    ![NVIDIA Mockup Preview](docs/screenshots/nvidia-investment-report.png)
 *   **Full Report**: [docs/example-runs/NVDA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/NVDA.md)
 
 ### Tata Consultancy Services (TCS)
 *   **Recommendation**: BUY
 *   **Confidence**: 89%
 *   **Preview**:
-    ![TCS Mockup Preview](docs/screenshots/tcs-example.png)
+    ![TCS Mockup Preview](docs/screenshots/tcs-investment-report.png)
 *   **Full Report**: [docs/example-runs/TCS.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/TCS.md)
 
 ### Paytm (PAYTM)
 *   **Recommendation**: PASS
 *   **Confidence**: 74%
 *   **Preview**:
-    ![Paytm Mockup Preview](docs/screenshots/paytm-example.png)
+    ![Paytm Mockup Preview](docs/screenshots/paytm-investment-report.png)
 *   **Full Report**: [docs/example-runs/PAYTM.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/PAYTM.md)
 
 ### Sonata Software (SONATACO)
 *   **Recommendation**: HOLD
 *   **Confidence**: 82%
 *   **Preview**:
-    ![Sonata Mockup Preview](docs/screenshots/sonata-example.png)
+    ![Sonata Mockup Preview](docs/screenshots/sonata-investment-report.png)
 *   **Full Report**: [docs/example-runs/SONATA.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/example-runs/SONATA.md)
 
 ---
@@ -243,9 +243,13 @@ The following screenshots illustrate the interface, layout architecture, and rea
 ![Landing Page](docs/screenshots/landing-page.png)
 *Displays the dark-mode layout of the terminal workspace, including the dynamic company preview card carousel.*
 
-## Dashboard Overview
-![Dashboard Overview](docs/screenshots/dashboard-overview.png)
-*Shows the asymmetric cockpit dashboard displaying the company profile summary, recommendation panel, and financial pillars.*
+## Apple Investment Report
+![Apple Investment Report](docs/screenshots/apple-investment-report.png)
+*Shows the asymmetric cockpit dashboard displaying the company profile summary, recommendation panel, and financial pillars for Apple.*
+
+## Nvidia Investment Report
+![Nvidia Investment Report](docs/screenshots/nvidia-investment-report.png)
+*Shows the full quantitative analysis and dashboard report generated for NVIDIA.*
 
 ## Investment Recommendation Centerpiece
 ![Investment Centerpiece](docs/screenshots/investment-recommendation.png)
