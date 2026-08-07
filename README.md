@@ -5,7 +5,7 @@ AlphaForge AI is an institutional-grade investment research platform designed to
 
 > [!NOTE]
 > **AI Pair Programming Collaboration**:
-> This platform was engineered using a multi-model AI delegation strategy. The consolidated prompts and responses are documented in the [transcript logs](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/transcript.jsonl).
+> This platform was engineered using a multi-model AI delegation strategy.
 > - **ChatGPT** was utilized for high-level Architectural & System Design conversations.
 > - **Google Gemini** was used for financial API Integration, data resolver mapping, and orchestrator pipelines.
 > - **Claude** was employed for UI/UX Layout, CSS styles, Recharts charts, and React component polish.
@@ -251,6 +251,4 @@ The `docs/` directory contains structured technical documentation explaining the
 - [docs/screenshots/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/screenshots/): Layout screenshots displaying the interactive UI modules.
 - [docs/Architecture.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/Architecture.md): System design, boundaries, and asymmetric grids.
 - [docs/decisions/](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/decisions/): Architectural decision records (ADRs) explaining technology choices.
-- [docs/llm-transcripts/development-log.md](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/development-log.md): AI-assisted prompt iterations and engineering development log.
-- [docs/llm-transcripts/transcript.jsonl](file:///d:/Projects/AlphaForge%20AI/AlphaForge-AI/docs/llm-transcripts/transcript.jsonl): Complete raw conversation transcript logs of the AI-assisted pair programming sessions.
 
